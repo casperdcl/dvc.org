@@ -1,5 +1,7 @@
 # Continuous Integration and Deployment for Machine Learning
 
+![](/static/img/cicd4ml-0.png '=408 :wrap-right')
+
 Applying DevOps methodologies to machine learning (MLOps) and data management
 (DataOps) is increasingly common. This means resource orchestration
 (provisioning servers for model training), model testing (validating model
@@ -8,8 +10,6 @@ feedback. [DVC](/) can manage data/models and reproducible pipelines, while
 [CML] can assist with orchestration, testing and monitoring.
 
 [cml]: https://cml.dev
-
-![](/static/img/cicd4ml-0.png '=408') _Basic ML pipeline_
 
 The main benefits of CI/CD (continuous integration and continuous delivery) for
 ML are detailed below.
@@ -42,7 +42,7 @@ being run online:
 Normally, CI/CD is hard to set up, configure, and maintain -- especially for
 data and ML pipelines.
 
-![](/static/img/cicd4ml-1.png '=374') _Traditional ML meets CI/CD_
+![](/static/img/cicd4ml-1.png '=374 :wrap-left')
 
 [DVC](/) and [CML] remove most of this
 [management headache](https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)
